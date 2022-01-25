@@ -1,4 +1,6 @@
-﻿public interface ISpecification<T>
+﻿namespace OpenClosePrinciple;
+
+public interface ISpecification<T>
 {
     bool IsSatisfied(Product p);
 }

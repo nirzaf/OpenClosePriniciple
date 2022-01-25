@@ -1,4 +1,6 @@
-﻿public class ColorSpecification : ISpecification<Product>
+﻿namespace OpenClosePrinciple;
+
+public class ColorSpecification : ISpecification<Product>
 {
     private readonly Color _color;
 

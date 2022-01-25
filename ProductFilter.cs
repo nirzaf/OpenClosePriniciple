@@ -1,4 +1,6 @@
-﻿public class ProductFilter
+﻿namespace OpenClosePrinciple;
+
+public class ProductFilter
 {
     // let's suppose we don't want ad-hoc queries on products
     public IEnumerable<Product> FilterByColor(IEnumerable<Product> products, Color color)

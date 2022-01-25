@@ -1,6 +1,8 @@
-﻿public class SizeSpecification : ISpecification<Product>
+﻿namespace OpenClosePrinciple;
+
+public class SizeSpecification : ISpecification<Product>
 {
-    private Size _size;
+    private readonly Size _size;
 
     public SizeSpecification(Size size)
     {

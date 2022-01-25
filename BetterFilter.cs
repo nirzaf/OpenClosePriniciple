@@ -1,4 +1,6 @@
-﻿public class BetterFilter : IFilter<Product>
+﻿namespace OpenClosePrinciple;
+
+public class BetterFilter : IFilter<Product>
 {
     public IEnumerable<Product> Filter(IEnumerable<Product> items, ISpecification<Product> spec)
     {

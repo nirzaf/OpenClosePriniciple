@@ -1,4 +1,6 @@
-﻿public enum Color
+﻿namespace OpenClosePrinciple;
+
+public enum Color
 {
     Red,
     Green,

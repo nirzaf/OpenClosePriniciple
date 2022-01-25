@@ -1,4 +1,6 @@
-﻿public class AndSpecification<T> : ISpecification<T>
+﻿namespace OpenClosePrinciple;
+
+public class AndSpecification<T> : ISpecification<T>
 {
     private readonly ISpecification<T> _first;
     private readonly ISpecification<T> _second;

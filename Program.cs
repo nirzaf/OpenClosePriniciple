@@ -1,4 +1,5 @@
-﻿using static System.Console;
+﻿using OpenClosePrinciple;
+using static System.Console;
 
 WriteLine("Hello, World!");
 var apple = new Product("Apple", Color.Green, Size.Small);

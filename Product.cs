@@ -1,4 +1,6 @@
-﻿public class Product
+﻿namespace OpenClosePrinciple;
+
+public class Product
 {
     public readonly Color Color;
     public readonly string Name;
@@ -6,7 +8,7 @@
 
     public Product(string name, Color color, Size size)
     {
-        Name = name ?? throw new ArgumentNullException(nameof(name));
+        Name = name;
         Color = color;
         Size = size;
     }

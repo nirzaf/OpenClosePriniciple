@@ -1,4 +1,6 @@
-﻿public enum Size
+﻿namespace OpenClosePrinciple;
+
+public enum Size
 {
     Small,
     Medium,
