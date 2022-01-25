@@ -4,7 +4,7 @@
 
     public SizeSpecification(Size size)
     {
-        this._size = size;
+        _size = size;
     }
 
     public bool IsSatisfied(Product p)
