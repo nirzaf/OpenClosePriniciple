@@ -11,6 +11,6 @@ public class ColorSpecification : ISpecification<Product>
 
     public bool IsSatisfied(Product p)
     {
-        return p.Color == _color;
+        return p.Color() == _color;
     }
 }

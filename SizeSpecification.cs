@@ -11,6 +11,6 @@ public class SizeSpecification : ISpecification<Product>
 
     public bool IsSatisfied(Product p)
     {
-        return p.Size == _size;
+        return p.Size() == _size;
     }
 }
