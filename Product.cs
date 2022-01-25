@@ -2,14 +2,14 @@
 
 public class Product
 {
-    public readonly Color Color;
-    public readonly string Name;
-    public readonly Size Size;
+    private readonly Color _color;
+    private readonly string _name;
+    private readonly Size _size;
 
     public Product(string name, Color color, Size size)
     {
-        Name = name;
-        Color = color;
-        Size = size;
+        _name = name;
+        _color = color;
+        _size = size;
     }
 }
