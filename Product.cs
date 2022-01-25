@@ -12,4 +12,19 @@ public class Product
         _color = color;
         _size = size;
     }
+
+    public Color Color()
+    {
+        return _color;
+    }
+
+    public Size Size()
+    {
+        return _size;
+    }
+
+    public string Name()
+    {
+        return _name;
+    }
 }
